@@ -328,12 +328,16 @@
 }
 
 .hero__label {
+  display: inline-block;
   font-family: var(--font-body);
   font-size: var(--text-sm);
   font-weight: 600;
   text-transform: uppercase;
   letter-spacing: 0.2em;
-  color: var(--color-highlight);
+  color: var(--color-primary-dark);
+  background: rgba(255, 255, 255, 0.92);
+  padding: 0.4em 1.2em;
+  border-radius: var(--radius-sm);
   margin-bottom: var(--space-md);
 }
 
