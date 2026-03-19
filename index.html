@@ -98,7 +98,7 @@
     <!-- ===== HERO ===== -->
     <section class="hero" aria-label="Welcome to Waterloo ABC">
       <div class="hero__bg">
-        <img src="assets/hero1.jpg" alt="Waterloo ABC boxing gym" width="1200" height="900" loading="eager">
+        <img src="W.jpg" alt="Waterloo ABC boxing gym" width="1200" height="900" loading="eager">
         <div class="hero__overlay"></div>
       </div>
       <div class="hero__content">
@@ -129,23 +129,7 @@
         </div>
 
         <div class="programs__grid stagger">
-          <!-- Card 1: Ladies Fitness & Boxing -->
-          <article class="program-card reveal" tabindex="0">
-            <div class="program-card__image">
-              <img src="assets/womans.jpg" alt="Ladies only fitness and boxing class at Waterloo ABC" loading="lazy" width="400" height="533">
-            </div>
-            <div class="program-card__overlay"></div>
-            <div class="program-card__content">
-              <span class="program-card__tag">Every Wednesday</span>
-              <h3 class="program-card__title">Ladies Only Fitness &amp; Boxing</h3>
-              <p class="program-card__details">
-                A fun, empowering workout blending boxing technique with full-body fitness. No experience needed — all levels welcome.<br>
-                <strong>10:00 AM · £5 per class</strong>
-              </p>
-            </div>
-          </article>
-
-          <!-- Card 2: Children's Beginners -->
+          <!-- Card 1: Children's Beginners -->
           <article class="program-card reveal" tabindex="0">
             <div class="program-card__image">
               <img src="assets/kids2.jpg" alt="Children's beginners boxing class at Waterloo ABC" loading="lazy" width="400" height="533">
@@ -155,13 +139,57 @@
               <span class="program-card__tag">Every 3rd Thursday</span>
               <h3 class="program-card__title">Children's Beginners Boxing</h3>
               <p class="program-card__details">
-                Start your boxing journey with us. Learn the basics — footwork, jab, cross, defence — in a supportive, fun environment.<br>
-                <strong>5:00 – 5:55 PM · £5 per class</strong>
+                Start your boxing journey with us. Learn the basics — footwork, jab, cross, defence — in a supportive, fun environment.
               </p>
             </div>
           </article>
 
-          <!-- Card 3: Competition Training -->
+          <!-- Card 2: 18+ Boxing Sessions -->
+          <article class="program-card reveal" tabindex="0">
+            <div class="program-card__image">
+              <img src="18+.jpg" alt="18+ adult boxing sessions at Waterloo ABC" loading="lazy" width="400" height="500">
+            </div>
+            <div class="program-card__overlay"></div>
+            <div class="program-card__content">
+              <span class="program-card__tag">Mon / Wed / Fri</span>
+              <h3 class="program-card__title">18+ Boxing Sessions</h3>
+              <p class="program-card__details">
+                Adult boxing sessions open to all abilities. Build fitness, technique, and confidence in the ring.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 3: Mixed Class -->
+          <article class="program-card reveal" tabindex="0">
+            <div class="program-card__image">
+              <img src="mixed.jpg" alt="Mixed boxing, circuits and fitness class at Waterloo ABC" loading="lazy" width="400" height="500">
+            </div>
+            <div class="program-card__overlay"></div>
+            <div class="program-card__content">
+              <span class="program-card__tag">Monday &amp; Tuesday</span>
+              <h3 class="program-card__title">Mixed Class</h3>
+              <p class="program-card__details">
+                Boxing, circuits and fitness for all levels. Beginners welcome — a great way to get started.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 4: Ladies Fitness & Boxing -->
+          <article class="program-card reveal" tabindex="0">
+            <div class="program-card__image">
+              <img src="assets/womans.jpg" alt="Ladies only fitness and boxing class at Waterloo ABC" loading="lazy" width="400" height="533">
+            </div>
+            <div class="program-card__overlay"></div>
+            <div class="program-card__content">
+              <span class="program-card__tag">Every Wednesday</span>
+              <h3 class="program-card__title">Ladies Only Fitness &amp; Boxing</h3>
+              <p class="program-card__details">
+                A fun, empowering workout blending boxing technique with full-body fitness. No experience needed — all levels welcome.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 5: Competition Training -->
           <article class="program-card reveal" tabindex="0">
             <div class="program-card__image">
               <img src="assets/Screenshot 2026-03-16 at 15.33.58.png" alt="Waterloo ABC members with medals at a boxing competition" loading="lazy" width="400" height="533">
@@ -171,8 +199,22 @@
               <span class="program-card__tag">By Arrangement</span>
               <h3 class="program-card__title">Competition Training</h3>
               <p class="program-card__details">
-                For members ready to step up. Structured training, sparring, and fight preparation with experienced coaching.<br>
-                <strong>Contact for schedule</strong>
+                For members ready to step up. Structured training, sparring, and fight preparation with experienced coaching.
+              </p>
+            </div>
+          </article>
+
+          <!-- Card 6: Private Personal Training -->
+          <article class="program-card reveal" tabindex="0">
+            <div class="program-card__image">
+              <img src="pt.jpg" alt="Private personal training at Waterloo ABC" loading="lazy" width="400" height="500">
+            </div>
+            <div class="program-card__overlay"></div>
+            <div class="program-card__content">
+              <span class="program-card__tag">By Arrangement</span>
+              <h3 class="program-card__title">Private Personal Training</h3>
+              <p class="program-card__details">
+                One-to-one coaching tailored to your goals. Contact us for availability and pricing.
               </p>
             </div>
           </article>
@@ -180,8 +222,127 @@
       </div>
     </section>
 
+    <!-- ===== SCHEDULE ===== -->
+    <section class="section section--light" id="schedule" aria-labelledby="schedule-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <p class="section-header__label">When to Train</p>
+          <h2 class="section-header__title" id="schedule-heading">Class Schedule</h2>
+          <span class="section-header__line"></span>
+        </div>
+
+        <div class="schedule__days">
+
+          <!-- Monday -->
+          <div class="schedule__day-card reveal">
+            <div class="schedule__day-header">
+              <h3 class="schedule__day-name">Monday</h3>
+            </div>
+            <ul class="schedule__sessions">
+              <li class="schedule__session">
+                <span class="schedule__session-time">5:00 PM</span>
+                <span class="schedule__session-class">Youth Boxing <em>(10–17 yrs)</em></span>
+                <span class="schedule__session-cost">£3</span>
+              </li>
+              <li class="schedule__session">
+                <span class="schedule__session-time">6:00–7:20 PM</span>
+                <span class="schedule__session-class">18+ Boxing Sessions</span>
+                <span class="schedule__session-cost">£3.50</span>
+              </li>
+              <li class="schedule__session">
+                <span class="schedule__session-time">7:30–8:15 PM</span>
+                <span class="schedule__session-class">Mixed Class <em>Boxing / Circuits / Fitness — All levels, beginners welcome</em></span>
+                <span class="schedule__session-cost">—</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Tuesday -->
+          <div class="schedule__day-card reveal">
+            <div class="schedule__day-header">
+              <h3 class="schedule__day-name">Tuesday</h3>
+            </div>
+            <ul class="schedule__sessions">
+              <li class="schedule__session">
+                <span class="schedule__session-time">7:00–8:00 PM</span>
+                <span class="schedule__session-class">Boxercise / Circuits / Fitness</span>
+                <span class="schedule__session-cost">£5</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Wednesday -->
+          <div class="schedule__day-card reveal">
+            <div class="schedule__day-header">
+              <h3 class="schedule__day-name">Wednesday</h3>
+            </div>
+            <ul class="schedule__sessions">
+              <li class="schedule__session">
+                <span class="schedule__session-time">10:00 AM</span>
+                <span class="schedule__session-class">Ladies Only Fitness &amp; Boxing</span>
+                <span class="schedule__session-cost">£5</span>
+              </li>
+              <li class="schedule__session">
+                <span class="schedule__session-time">5:00 PM</span>
+                <span class="schedule__session-class">Youth Boxing <em>(10–17 yrs)</em></span>
+                <span class="schedule__session-cost">£3</span>
+              </li>
+              <li class="schedule__session">
+                <span class="schedule__session-time">6:00–7:20 PM</span>
+                <span class="schedule__session-class">18+ Boxing Sessions</span>
+                <span class="schedule__session-cost">£3.50</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Thursday -->
+          <div class="schedule__day-card reveal">
+            <div class="schedule__day-header">
+              <h3 class="schedule__day-name">Thursday</h3>
+            </div>
+            <ul class="schedule__sessions">
+              <li class="schedule__session">
+                <span class="schedule__session-time">5:00–5:55 PM</span>
+                <span class="schedule__session-class">Children's Beginners Boxing <em>Every 3rd Thursday</em></span>
+                <span class="schedule__session-cost">£5</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Friday -->
+          <div class="schedule__day-card reveal">
+            <div class="schedule__day-header">
+              <h3 class="schedule__day-name">Friday</h3>
+            </div>
+            <ul class="schedule__sessions">
+              <li class="schedule__session">
+                <span class="schedule__session-time">5:00 PM</span>
+                <span class="schedule__session-class">Youth Boxing <em>(10–17 yrs)</em></span>
+                <span class="schedule__session-cost">£3</span>
+              </li>
+              <li class="schedule__session">
+                <span class="schedule__session-time">6:00–7:20 PM</span>
+                <span class="schedule__session-class">18+ Boxing Sessions</span>
+                <span class="schedule__session-cost">£3.50</span>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+
+        <p class="schedule__note reveal">Private Personal Training also available — <a href="tel:07732479859">contact us for information</a>.</p>
+
+        <div class="schedule__cta reveal">
+          <a href="tel:07732479859" class="btn btn--primary">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            Book Your Spot — 07732 479 859
+          </a>
+        </div>
+      </div>
+    </section>
+
     <!-- ===== ABOUT ===== -->
-    <section class="section section--light" id="about" aria-labelledby="about-heading">
+    <section class="section section--dark" id="about" aria-labelledby="about-heading">
       <div class="container">
         <div class="section-header reveal">
           <p class="section-header__label">Who We Are</p>
@@ -193,7 +354,7 @@
           <div class="about__text reveal">
             <p>Waterloo ABC is a grassroots amateur boxing club rooted in the heart of Liverpool's Waterloo community. We're not a fancy fitness chain — we're a proper boxing gym where dedication, discipline, and community come first.</p>
             <p>Whether you're a complete beginner lacing up gloves for the first time, a parent looking for a positive outlet for your kids, or an aspiring competitor chasing championship belts — there's a place for you here. Our members range from juniors to adults, and everyone trains with the same respect and work ethic.</p>
-            <p>With affordable sessions at just £5 a class, we believe world-class coaching shouldn't come with a premium price tag.</p>
+            <p>With affordable sessions from just £3 to £5 a class, we believe world-class coaching shouldn't come with a premium price tag.</p>
 
             <div class="about__coach">
               <div class="about__coach-icon">
@@ -217,7 +378,7 @@
             <p class="about__stat-label">Welcome</p>
           </div>
           <div class="about__stat reveal">
-            <p class="about__stat-value">£5</p>
+            <p class="about__stat-value">£3–£5</p>
             <p class="about__stat-label">Per Session</p>
           </div>
           <div class="about__stat reveal">
@@ -272,51 +433,6 @@
       </div>
     </section>
 
-    <!-- ===== SCHEDULE ===== -->
-    <section class="section section--light" id="schedule" aria-labelledby="schedule-heading">
-      <div class="container">
-        <div class="section-header reveal">
-          <p class="section-header__label">When to Train</p>
-          <h2 class="section-header__title" id="schedule-heading">Class Schedule</h2>
-          <span class="section-header__line"></span>
-        </div>
-
-        <div class="schedule__table reveal" role="table" aria-label="Weekly class schedule">
-          <div class="schedule__row schedule__row--header" role="row">
-            <div role="columnheader">Day</div>
-            <div role="columnheader">Class</div>
-            <div role="columnheader">Time</div>
-            <div role="columnheader">Cost</div>
-          </div>
-          <div class="schedule__row" role="row">
-            <div class="schedule__day" role="cell">Wednesday</div>
-            <div class="schedule__class" role="cell">Ladies Fitness &amp; Boxing</div>
-            <div class="schedule__time" role="cell">10:00 AM</div>
-            <div class="schedule__cost" role="cell">£5</div>
-          </div>
-          <div class="schedule__row" role="row">
-            <div class="schedule__day" role="cell">Every 3rd Thursday</div>
-            <div class="schedule__class" role="cell">Children's Beginners Boxing</div>
-            <div class="schedule__time" role="cell">5:00 – 5:55 PM</div>
-            <div class="schedule__cost" role="cell">£5</div>
-          </div>
-          <div class="schedule__row" role="row">
-            <div class="schedule__day" role="cell">Contact for Details</div>
-            <div class="schedule__class" role="cell">Competition Training</div>
-            <div class="schedule__time" role="cell">—</div>
-            <div class="schedule__cost" role="cell">—</div>
-          </div>
-        </div>
-
-        <div class="schedule__cta reveal">
-          <a href="tel:07732479859" class="btn btn--primary">
-            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.361 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
-            Book Your Spot — 07732 479 859
-          </a>
-        </div>
-      </div>
-    </section>
-
     <!-- ===== TEAM ===== -->
     <section class="section section--dark" id="team" aria-labelledby="team-heading">
       <div class="container">
@@ -351,25 +467,33 @@
         <div class="testimonials__track-wrapper reveal">
           <div class="testimonials__track" id="testimonialsTrack">
             <div class="testimonial">
-              <div class="testimonial__quote-icon" aria-hidden="true">&ldquo;</div>
+              <div class="testimonial__quote-icon" aria-hidden="true">
+                <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 32V19.556C0 8.741 6.222 2.37 18.667 0l1.777 3.556C13.926 5.037 10.37 8.593 9.778 14.222H17.778V32H0ZM22.222 32V19.556C22.222 8.741 28.444 2.37 40.889 0l1.778 3.556c-6.519 1.481-10.075 5.037-10.667 10.666H40V32H22.222Z" fill="currentColor"/></svg>
+              </div>
               <p class="testimonial__text">Started a boxing circuit class with my mates and it's been brilliant. The coach is ex-pro — his knowledge of boxing and fitness is top notch, and he's really patient with the lads. The gym has everything you need: weights, bags, rings, the lot. Great place to train.</p>
               <p class="testimonial__author">Col Rourke</p>
               <p class="testimonial__role">Google Review</p>
             </div>
             <div class="testimonial">
-              <div class="testimonial__quote-icon" aria-hidden="true">&ldquo;</div>
+              <div class="testimonial__quote-icon" aria-hidden="true">
+                <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 32V19.556C0 8.741 6.222 2.37 18.667 0l1.777 3.556C13.926 5.037 10.37 8.593 9.778 14.222H17.778V32H0ZM22.222 32V19.556C22.222 8.741 28.444 2.37 40.889 0l1.778 3.556c-6.519 1.481-10.075 5.037-10.667 10.666H40V32H22.222Z" fill="currentColor"/></svg>
+              </div>
               <p class="testimonial__text">The gym has really improved — great atmosphere and the group training were enthusiastic and took on board everything being taught to them. Great stuff.</p>
               <p class="testimonial__author">Richard Starkey</p>
               <p class="testimonial__role">Google Review</p>
             </div>
             <div class="testimonial">
-              <div class="testimonial__quote-icon" aria-hidden="true">&ldquo;</div>
+              <div class="testimonial__quote-icon" aria-hidden="true">
+                <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 32V19.556C0 8.741 6.222 2.37 18.667 0l1.777 3.556C13.926 5.037 10.37 8.593 9.778 14.222H17.778V32H0ZM22.222 32V19.556C22.222 8.741 28.444 2.37 40.889 0l1.778 3.556c-6.519 1.481-10.075 5.037-10.667 10.666H40V32H22.222Z" fill="currentColor"/></svg>
+              </div>
               <p class="testimonial__text">Great man Shaun — the best boxing coach in Liverpool.</p>
               <p class="testimonial__author">Carl Wright</p>
               <p class="testimonial__role">Google Review</p>
             </div>
             <div class="testimonial">
-              <div class="testimonial__quote-icon" aria-hidden="true">&ldquo;</div>
+              <div class="testimonial__quote-icon" aria-hidden="true">
+                <svg width="40" height="32" viewBox="0 0 40 32" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M0 32V19.556C0 8.741 6.222 2.37 18.667 0l1.777 3.556C13.926 5.037 10.37 8.593 9.778 14.222H17.778V32H0ZM22.222 32V19.556C22.222 8.741 28.444 2.37 40.889 0l1.778 3.556c-6.519 1.481-10.075 5.037-10.667 10.666H40V32H22.222Z" fill="currentColor"/></svg>
+              </div>
               <p class="testimonial__text">Brilliant class with friendly staff.</p>
               <p class="testimonial__author">Clare McGregory</p>
               <p class="testimonial__role">Google Review</p>
@@ -541,11 +665,15 @@
             <a href="https://www.instagram.com/waterloo_abc/" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow Waterloo ABC on Instagram">
               <svg viewBox="0 0 24 24"><path d="M7.8 2h8.4C19.4 2 22 4.6 22 7.8v8.4a5.8 5.8 0 01-5.8 5.8H7.8C4.6 22 2 19.4 2 16.2V7.8A5.8 5.8 0 017.8 2m-.2 2A3.6 3.6 0 004 7.6v8.8C4 18.39 5.61 20 7.6 20h8.8a3.6 3.6 0 003.6-3.6V7.6C20 5.61 18.39 4 16.4 4H7.6m9.65 1.5a1.25 1.25 0 110 2.5 1.25 1.25 0 010-2.5M12 7a5 5 0 110 10 5 5 0 010-10m0 2a3 3 0 100 6 3 3 0 000-6z"/></svg>
             </a>
+            <a href="https://www.facebook.com/waterlooabc?locale=en_GB" class="footer__social-link" target="_blank" rel="noopener noreferrer" aria-label="Follow Waterloo ABC on Facebook">
+              <svg viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"/></svg>
+            </a>
           </div>
         </div>
       </div>
 
       <div class="footer__bottom">
+        <a href="https://maiaa.ai" class="footer__hosted" target="_blank" rel="noopener noreferrer">Hosted by maiaa.ai</a>
         <p>&copy; 2026 Waterloo ABC. All rights reserved.</p>
       </div>
     </div>
